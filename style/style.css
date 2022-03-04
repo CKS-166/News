@@ -1,0 +1,86 @@
+body {
+  font-family: Arial;
+  font-size: 14px;
+  text-align: center;
+
+}
+#menu_top {
+  background: #FFF;
+  height: 50px;
+  margin:auto;
+  color: #FFF;
+  border-bottom: 1px solid #ddd;
+
+}
+#menu_top ul {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menu_top ul li{
+  list-style: none;
+  float: left;
+  line-height: 50px;
+  padding:0px 10px 0px 10px;
+
+}
+#menu_top ul li a{
+  text-decoration: none;
+  display: block;
+  color: #444444;
+}
+p {
+  width: 600px;
+  margin: 0px auto;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 18px;
+}
+#main {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 50px 0 50px;
+}
+.danhmuc a {
+  color: #888;
+  font-weight: 300;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tieude {
+  width: 580px;
+  margin: 0px auto;
+  margin-top: 10px;
+  font-size: 42px;
+}
+.summary {
+  font-weight: bold;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 20px;
+}
+#anh1{
+  padding: 20px 0 5px 0;
+}
+h3{
+  font-size:28px;
+  width:370px;
+  margin: 0px auto;
+  padding: 30px 0 0 0;
+}
+#footer {
+  background: #C0C0C0;
+  width: 100%;
+  text-align: center;
+  height: 80px;
+  clear: left;
+  color: #FFF;
+  line-height: 80px;
+}
+
+ 
