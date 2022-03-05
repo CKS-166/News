@@ -3,6 +3,19 @@
   <head> 
     <title> News </title>
     <link rel="stylesheet" href="style/style.css"/>
+    <input type="text" id="name">
+		<br/><input type="button" 
+			value="Submit" 
+			onclick="saveToLocalStorage('Name',document.getElementById('name').value);
+      alert('Submitted');">
+		<br/><input type="button" 
+      value="View submission" 
+      onclick="alert(localStorage.getItem('Name'));">
+		<script>
+			function saveToLocalStorage(ten, giaTri){
+				localStorage.setItem(ten, giaTri);
+			}
+		</script>
   </head>
   <body>
     <div id="menu_top">
